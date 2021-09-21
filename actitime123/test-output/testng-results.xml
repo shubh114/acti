@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[openbrowser]]>
+    </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[welcome to testing 1]]>
+    </line>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+    <line>
+      <![CDATA[closebrowser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-09-21T16:43:14 IST" name="Suite" finished-at="2021-09-21T16:43:34 IST" duration-ms="20911">
+    <groups>
+    </groups>
+    <test started-at="2021-09-21T16:43:14 IST" name="Test" finished-at="2021-09-21T16:43:34 IST" duration-ms="20911">
+      <class name="com.acttime.test.DemoTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.acttime.test.DemoTest@7fee8714]" started-at="2021-09-21T16:43:14 IST" name="openBrowser" finished-at="2021-09-21T16:43:16 IST" duration-ms="2737" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[openbrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.acttime.test.DemoTest@7fee8714]" started-at="2021-09-21T16:43:16 IST" name="login" finished-at="2021-09-21T16:43:26 IST" duration-ms="9679" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="testDemo()[pri:0, instance:com.acttime.test.DemoTest@7fee8714]" started-at="2021-09-21T16:43:26 IST" name="testDemo" finished-at="2021-09-21T16:43:26 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[welcome to testing 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDemo -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.acttime.test.DemoTest@7fee8714]" started-at="2021-09-21T16:43:26 IST" name="logout" finished-at="2021-09-21T16:43:34 IST" duration-ms="8246" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closewBrowser()[pri:0, instance:com.acttime.test.DemoTest@7fee8714]" started-at="2021-09-21T16:43:34 IST" name="closewBrowser" finished-at="2021-09-21T16:43:34 IST" duration-ms="122" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closebrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closewBrowser -->
+      </class> <!-- com.acttime.test.DemoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
