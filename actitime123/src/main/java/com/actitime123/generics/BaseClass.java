@@ -3,8 +3,12 @@ package com.actitime123.generics;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -39,6 +43,12 @@ public void login() {
 @AfterMethod
 public void logout() {
 	Reporter.log("logout",true);
-	driver.findElement(By.id("logoutLink")).click();
+	//JavascriptExecutor j=(JavascriptExecutor) driver;
+	//WebDriverCommonLib.waitForElementToLoad(driver);
+	WebElement logout = driver.findElement(By.id("logoutLink"));
+	//j.executeScript("document.getElementById(\"logoutLink\").click()");
+	WebDriverWait wait=new WebDriverWait(driver,30);
+	wait.until(ExpectedConditions.elementToBeClickable(logout));
+	logout.click();
 }
 }
