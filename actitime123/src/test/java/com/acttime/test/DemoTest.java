@@ -13,5 +13,6 @@ public class DemoTest extends BaseClass {
 		Reporter.log("welcome to testing 1",true);
 		System.out.println("hsis");
 		System.out.println("nkk");
+		System.out.println("cfhhjgj");
 	}
 }
