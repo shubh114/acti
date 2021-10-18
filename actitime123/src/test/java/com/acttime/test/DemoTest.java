@@ -12,5 +12,6 @@ public class DemoTest extends BaseClass {
 	public void testDemo() throws InterruptedException {
 		Reporter.log("welcome to testing 1",true);
 		System.out.println("hsis");
+		System.out.println("nkk");
 	}
 }
