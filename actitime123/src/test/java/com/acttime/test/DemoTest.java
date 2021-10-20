@@ -14,5 +14,6 @@ public class DemoTest extends BaseClass {
 		System.out.println("hsis");
 		System.out.println("nkk");
 		System.out.println("cfhhjgj");
+		System.out.println("fmkd");
 	}
 }
